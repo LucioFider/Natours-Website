@@ -22,12 +22,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(85, 197, 122, 0.8),
-      rgba(40, 180, 133, 0.8)
-    ),
-    url("../img/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
@@ -113,59 +108,5 @@ body {
     transform: translate(0);
   }
 }
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  border: none;
-  border-radius: 10rem;
-  transition: all 0.2s;
-  position: relative;
-  font-size: 1.6rem;
-}
-.btn:link:hover,
-.btn:visited:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-.btn:link:hover::after,
-.btn:visited:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-.btn:link:active,
-.btn:visited:active {
-  transform: translateY(-0.1rem);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-.btn:link--white,
-.btn:visited--white {
-  background-color: #fff;
-  color: #777;
-}
-.btn:link--white--white,
-.btn:visited--white--white {
-  background-color: #fff;
-}
-.btn:link::after,
-.btn:visited::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.4s;
-}
-.btn:link--animated,
-.btn:visited--animated {
-  animation: moveInBottom 0.5s ease-out 0.75s;
-  animation-fill-mode: backwards;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
