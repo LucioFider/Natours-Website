@@ -4,6 +4,7 @@
   "description": "nature tour",
   "main": "index.js",
   "scripts": {
+    "watch:sass": "sass --watch sass/main.scss css/style.css",
     "compile:sass": "sass --watch sass/main.scss css/style.css"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/LucioFider/Natours-Website#readme",
   "dependencies": {
     "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3"
   }
 }
